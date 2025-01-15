@@ -1,11 +1,71 @@
-# Sample Snack app
+# React Native Todo App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native application built with Expo that allows users to manage their tasks efficiently. This app includes authentication screens (Login, Register, Forgot Password, Change Password) and a robust task management system (Add, Update, Delete, Edit, and Mark Tasks as Completed).
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### Authentication
+- **Login Screen**: Secure login for users.
+- **Register Screen**: User registration with basic validation.
+- **Forgot Password**: Password recovery option for users.
+- **Change Password**: Option to update the password securely.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### Task Management
+- **Add Tasks**: Create new tasks with ease.
+- **Edit Tasks**: Modify existing tasks.
+- **Delete Tasks**: Remove tasks that are no longer needed.
+- **Mark Tasks as Completed**: Track progress by marking tasks as complete.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Screenshots
+Add relevant screenshots of the app (e.g., login screen, task management UI).
+
+## Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone <[repository-url](https://github.com/kamal-deep-131/todo-react-native.git)>
+   cd react-native-todo-app
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the App**
+   ```bash
+   npx expo start
+   ```
+
+## Technologies Used
+
+- **React Native**: For building the mobile application.
+- **Expo**: For a streamlined development experience.
+- **Future Backend Integration**: Backend services (e.g., Node.js, Express, MongoDB) will be integrated in future updates.
+
+## Future Enhancements
+
+- Backend integration for data persistence.
+- User authentication with server-side validation.
+- Adding advanced features such as task categories, reminders, and search functionality.
+
+## Folder Structure
+
+```
+react-native-todo-app/
+├── screens/
+│   ├── Login.js
+│   ├── Register.js
+│   ├── ForgotPassword.js
+│   ├── ChangePassword.js
+├── App.js
+├── package.json
+└── README.md
+```
+
+
+## License
+
+This project is built by kamaldeep.
+
+---
