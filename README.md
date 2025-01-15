@@ -16,14 +16,11 @@ A React Native application built with Expo that allows users to manage their tas
 - **Delete Tasks**: Remove tasks that are no longer needed.
 - **Mark Tasks as Completed**: Track progress by marking tasks as complete.
 
-## Screenshots
-Add relevant screenshots of the app (e.g., login screen, task management UI).
-
 ## Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone <[repository-url](https://github.com/kamal-deep-131/todo-react-native.git)>
+   git clone https://github.com/kamal-deep-131/todo-react-native.git
    cd react-native-todo-app
    ```
 
